@@ -30,3 +30,5 @@
 
 11) Что прочитать по этому поводу https://attacomsian.com/blog/axios-javascript
 
+12) Также посмотри, что такое NPM
+

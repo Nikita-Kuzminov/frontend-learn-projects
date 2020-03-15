@@ -7,3 +7,4 @@
  
 2) Sign-Up for a GitHub
 
+3) Оформить лицензию на Jetbtains во вкладке Official document

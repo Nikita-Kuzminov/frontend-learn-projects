@@ -50,5 +50,11 @@ https://roadmap.sh/frontend/resources
 
 Это на английском
 
+https://github.com/adam-golab/react-developer-roadmap/blob/master/README-RU.md
 
+Это на русском и с уклоном в React
+
+Здесь краткий список того, что тебе нужно знать чтобы получиться стажировку
+
+Каждый пункт это какая-то технология или концепция
 

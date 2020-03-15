@@ -58,3 +58,7 @@ https://github.com/adam-golab/react-developer-roadmap/blob/master/README-RU.md
 
 Каждый пункт это какая-то технология или концепция
 
+18) Вот это будет твое первое тестовое задание, которое нужно будет сделать, когда разберешься с базой по JS
+Здесь 30 вопросов и заданий конкретно на алгоритмы, то есть на твое умение программировать и решать поставленные задачи и проблемы
+https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-(Written-by-a-Frontend-Engineer)
+

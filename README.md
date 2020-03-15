@@ -66,3 +66,5 @@ https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Qu
 
 19) Делай задания параллельно с тем, как будешь учиться
 
+20) https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide
+

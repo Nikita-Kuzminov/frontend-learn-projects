@@ -63,3 +63,6 @@ https://github.com/adam-golab/react-developer-roadmap/blob/master/README-RU.md
 https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-(Written-by-a-Frontend-Engineer)
 
 Чтобы ты понимал, что тебе нужно будет делать дальше, можешь иногда просматривать и пробовать что-то делать или про что-то читать
+
+19) Делай задания параллельно с тем, как будешь учиться
+

@@ -7,4 +7,6 @@
  
 2) Sign-Up for a GitHub
 
-3) Оформить лицензию на Jetbtains во вкладке Official document
+3) Оформить лицензию на https://www.jetbrains.com/shop/eform/students во вкладке Official document
+
+4) Затем отправить заявку сюда https://education.github.com/discount_requests/new

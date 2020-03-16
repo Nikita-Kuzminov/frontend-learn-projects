@@ -1,4 +1,4 @@
-/*document.addEventListener('DOMContentLoaded', (event) => {
+document.addEventListener('DOMContentLoaded', (event) => {
     
     const h1 = document.getElementById("el");
     if (h1 === undefined) {
@@ -11,18 +11,4 @@
         }
     }
 
-});*/
-document.addEventListener('DOMContentLoaded', (event) =>
-
-function checkData() {
-    if (document.form1.threeChar.value.length == 3) {
-        console.log('True');
-        h1.innerText = ('True');
-        return true;
-    } else {
-        alert("Enter exactly three characters. " + document.form1.threeChar.value + " is not valid.");
-        console.log('False')
-        h1.innerText = ('False');
-        return false;
-    }
-})
+});

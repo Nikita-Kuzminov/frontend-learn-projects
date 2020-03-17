@@ -5,11 +5,21 @@
     <meta charset="utf-8">
     <title>Test</title>
     <link rel="icon" type="image" href="https://findicons.com/files/icons/2791/boxed_metal_icons/128/study_app.png">
-    <script src="indexJS.js"></script>
+    <script src="script.js"></script>
 </head>
 
 <body>
     <h1 id="el"></h1>
+    <form name="form1">
+        <h3>Enter a natural number to get the factorial</h3>
+        <input type="text" name="threeChar">
+        <button onclick="checkData(event)">Enter</button>
+        <h3>--------------------------------------------------------</h3>
+        <h3>Enter a natural number to get sequence of fibonacci numbers</h3>
+        <input type = "text" name = "numFib">
+        <button onclick = "fibNum(event)">Enter</button>
+        <h3>--------------------------------------------------------</h3>
+    </form>
 </body>
 
 </html>

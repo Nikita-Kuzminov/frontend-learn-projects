@@ -46,13 +46,7 @@ function fibNum(event) {
     }
 }
 
-
-
 function fib(n) {
-    if (n >= 1) {
-        console.log("fib(n - 1) - " + fib(n - 1));
-        console.log("fib(n - 2) - " + fib(n - 21));
-    }
     return n <= 1 ? n : fib(n - 1) + fib(n - 2);
 }
 

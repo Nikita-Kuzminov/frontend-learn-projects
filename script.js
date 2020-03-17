@@ -72,72 +72,27 @@ function isSorted(event) {
     }
 }
 
-
 function isPrime(e) {
     e.preventDefault();
     const h1 = document.getElementById("el");
-    let n = 10;
 
-    nextPrime:
-    
-        if (document.getElementById % 2 == 0) {
-            alert('False');
-            break;
-         
-      } else {
-          alert('True');
-          break;
-      }
-    // break;
- //     alert( i ); // простое число
-    }
-//break;   
+    if (document.form1.primeNumber.value > 0) {
+        const value = Number(document.form1.primeNumber.value);
+        const isPrime = isPrimeCheck(value);
 
-/*    debugger;
-    if (document.form1.numFib.value > 0) {
-        h1.innerText = ' ' + '= ' + prime(document.form1.primeNumber.value);
-        return true;
+        if (isPrime) {
+            h1.innerText = 'The number is prime';
+        } else h1.innerText = 'The number is not prime';
+
     } else {
-        alert("Enter exactly a natural number");
+        alert("Enter number > 0");
         h1.innerText = 'Invalid value entered';
-        return false;
-    }
-}*/
-
-// function isPrime(event) {
-//     event.preventDefault();
-//     const h1 = document.getElementById("el");
-//     debugger;
-//     if (document.form1.numFib.value > 0) {
-//         h1.innerText = ' ' + '= ' + prime(document.form1.isPrime.value);
-//         return true;
-//     } else {
-//         alert("Enter exactly a natural number");
-//         h1.innerText = 'Invalid value entered';
-//         return false;
-//     }
-    // let j = document.form1.isPrime.value % 2;
-    // if (document.form1.isPrime.value == 0) {
-    //     h1.innerText = 'True';
-    // } else {
-    //     h1.innerText = 'False';
-    // }
-// }
-    /*let n = [];
-    while (true) {
-        let value = promt("Enter a number", 0);
-        if (value === "" || value === null || !isFinite(value)) break;
-        n.push(+value);
-    }
-    nextPrime:
-    for (let i = 0; i <= document.form1.isPrime.value; i++) {
-        for (let j = 2; j <= i; j++) {
-            if (i % j == 0) continue nextPrime;
-        }
-        alert();
     }
 }
 
-function prime(k) {
-    return k    ;
-}*/
+
+function isPrimeCheck(num) {
+    for(var i = 2; i < num; i++)
+      if(num % i === 0) return false;
+    return num > 1;
+  }

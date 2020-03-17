@@ -92,7 +92,9 @@ function isPrime(event) {
         h1.innerText = 'False';
     }
 }
-    /*let n = [];
+
+
+/*  let n = [];
     while (true) {
         let value = promt("Enter a number", 0);
         if (value === "" || value === null || !isFinite(value)) break;
@@ -109,4 +111,6 @@ function isPrime(event) {
 
 function prime(k) {
     return k;
-}*/
+}
+
+*/

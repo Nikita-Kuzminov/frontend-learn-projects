@@ -54,19 +54,12 @@ function isSorted(event) {
     event.preventDefault();
     const h1 = document.getElementById("el");
     let numbers = [];
-  
     while (true) {
-  
-      let value = prompt("Введите число", 0);
-  
-      // Прекращаем ввод?
+      let value = prompt("Enter a number", 0);
       if (value === "" || value === null || !isFinite(value)) break;
-  
       numbers.push(+value);
     }
-  
     let sorted = true;
-
     for (let i = 0; i < numbers.length - 1; i++) {
         if (numbers[i] > numbers[i+1]) {
             sorted = false;
@@ -77,7 +70,22 @@ function isSorted(event) {
     if (sorted == true) {
         alert('True');
     }
-
 }
 
-  
+function isPrime(event) {
+    event.preventDefault();
+    const h1 = document.getElementById("el");
+    let n = [];
+    while (true) {
+        let value = promt("Enter a number", 0);
+        if (value === "" || value === null || !isFinite(value)) break;
+        n.push(+value);
+    }
+    nextPrime:
+    for (let i = 0; i <= n; i++) {
+        for (let j = 2; j <= i; j++) {
+            if (i % j == 0) continue nextPrime;
+        }
+        alert();
+    }
+}

@@ -50,3 +50,33 @@ function fib(n) {
     return n <= 1 ? n : fib(n - 1) + fib(n - 2);
 }
 
+function isSorted(event) {
+    event.preventDefault();
+    const h1 = document.getElementById("el");
+    let numbers = [];
+  
+    while (true) {
+  
+      let value = prompt("Введите число", 0);
+  
+      // Прекращаем ввод?
+      if (value === "" || value === null || !isFinite(value)) break;
+  
+      numbers.push(+value);
+    }
+  
+    let sorted = true;
+
+    for (let i = 0; i < numbers.length - 1; i++) {
+        if (numbers[i] > numbers[i+1]) {
+            sorted = false;
+            alert('False');
+            break;
+        }
+    }
+    if (sorted == true) {
+        alert('True');
+    }
+
+}
+  

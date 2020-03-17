@@ -72,27 +72,33 @@ function isSorted(event) {
     }
 }
 
-function isPrime(e) {
-    e.preventDefault();
-    const h1 = document.getElementById("el");
+function isPrime(e) {                                             //объявили функцию, которая возвращает значение переменной e
+    e.preventDefault();                                           //сделали так, чтобы страница каждый раз возвращалась в исходное
+                                                                  //положение после нажатия на любую из кнопок. Чтобы страница не 
+                                                                  //оставалась в подвешенном состоянии, а продолжала функционировать
+    const h1 = document.getElementById("el");                     //объявили переменную h1, передав в неё значение с html-файла из body  
 
-    if (document.form1.primeNumber.value > 0) {
-        const value = Number(document.form1.primeNumber.value);
-        const isPrime = isPrimeCheck(value);
+    if (document.form1.primeNumber.value > 0) {                   //если введённое значение больше нуля
+        const value = Number(document.form1.primeNumber.value);   // присваиваем новой переменной value введённое значение
+        const isPrime = isPrimeCheck(value);                      //создаём ещё переменную, которой присваиваем значение, 
+                                                                  //возвращённое из функции isPrimeCheck
 
-        if (isPrime) {
-            h1.innerText = 'The number is prime';
-        } else h1.innerText = 'The number is not prime';
+        if (isPrime) {                                            //функция обращается к самой себе (в случае выполнения функции)
+            h1.innerText = 'The number is prime';                 //нужно вывести на экран текст 'The number is prime'
+        } else h1.innerText = 'The number is not prime';          //Если нет - выводим альтернативный текст 'The number is not prime'
 
     } else {
-        alert("Enter number > 0");
-        h1.innerText = 'Invalid value entered';
+        alert("Enter number > 0");                                //если изначально введённое значение меньше нуля, то сайт выдаёт
+                                                                  //сообщение "Enter number > 0"
+        h1.innerText = 'Invalid value entered';                   //а на самой страничке выводится запись: 'Invalid value entered'
     }
 }
 
 
-function isPrimeCheck(num) {
-    for(var i = 2; i < num; i++)
-      if(num % i === 0) return false;
-    return num > 1;
+function isPrimeCheck(num) {                                      //новая функция, возвращающая значение переменноц num
+    for(var i = 2; i < num; i++)                                  //создаём новую переменную i, равную двум; возвращаться в цикл, 
+                                                                  //пока i не станет равным num; i увеличивать с каждой итерацией на 1
+      if(num % i === 0) return false;                             //если результат деления без остатка num на i будет равен нулю,
+                                                                  //функция возвращает значение false
+    return num > 1;                                               //если не равен нулю, функция возвращает переменную num > 1 
   }

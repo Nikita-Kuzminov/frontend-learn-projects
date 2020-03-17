@@ -34,14 +34,7 @@ function checkData(event) {
 function fibNum(event) {
     event.preventDefault();
     const h1 = document.getElementById("el");
-    function fib(m) {
-        let arr = [];
-        
-        arr[0] = '0';
-        arr[1] = '1';
-        arr[k] = arr[k-1] + arr[k-2];
-        return m = arr[k];
-    }
+    fib(m);
     if (document.form1.numFib.value > 0) {
         console.log('Helolo');
         h1.innerText = 'The number from sequence of fibonacci numbers ' + '= ' + fib(document.form1.numFib.value);
@@ -51,5 +44,14 @@ function fibNum(event) {
         h1.innerText = 'Invalid value entered';
         return false;
     }
+}
+
+function fib(m) {
+    let arr = [];
+    
+    arr[0] = 0;
+    arr[1] = 1;
+    arr[m] = arr[m-1] + arr[m-2];
+    return m = arr[m];
 }
 

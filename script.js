@@ -72,26 +72,39 @@ function isSorted(event) {
     }
 }
 
-
-function isPrime(event) {
-    event.preventDefault();
+function isPrime(e) {
+    e.preventDefault();
     const h1 = document.getElementById("el");
-
+    debugger;
     if (document.form1.numFib.value > 0) {
-        h1.innerText = ' ' + '= ' + prime(document.form1.isPrime.value);
+        h1.innerText = ' ' + '= ' + prime(document.form1.primeNumber.value);
         return true;
     } else {
         alert("Enter exactly a natural number");
         h1.innerText = 'Invalid value entered';
         return false;
     }
-    let j = document.form1.isPrime.value % 2;
-    if (document.form1.isPrime.value == 0) {
-        h1.innerText = 'True';
-    } else {
-        h1.innerText = 'False';
-    }
 }
+
+// function isPrime(event) {
+//     event.preventDefault();
+//     const h1 = document.getElementById("el");
+//     debugger;
+//     if (document.form1.numFib.value > 0) {
+//         h1.innerText = ' ' + '= ' + prime(document.form1.isPrime.value);
+//         return true;
+//     } else {
+//         alert("Enter exactly a natural number");
+//         h1.innerText = 'Invalid value entered';
+//         return false;
+//     }
+    // let j = document.form1.isPrime.value % 2;
+    // if (document.form1.isPrime.value == 0) {
+    //     h1.innerText = 'True';
+    // } else {
+    //     h1.innerText = 'False';
+    // }
+// }
     /*let n = [];
     while (true) {
         let value = promt("Enter a number", 0);
@@ -105,8 +118,8 @@ function isPrime(event) {
         }
         alert();
     }
-}
+}*/
 
 function prime(k) {
     return k;
-}*/
+}

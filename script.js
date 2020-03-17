@@ -80,12 +80,12 @@ function isPrime(event) {
         let value = promt("Enter a number", 0);
         if (value === "" || value === null || !isFinite(value)) break;
         n.push(+value);
-    }
+    }/*
     nextPrime:
     for (let i = 0; i <= n; i++) {
         for (let j = 2; j <= i; j++) {
             if (i % j == 0) continue nextPrime;
         }
         alert();
-    }
+    }*/
 }

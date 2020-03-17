@@ -36,9 +36,7 @@ function factorial(n) {
 function fibNum(event) {
     event.preventDefault();
     const h1 = document.getElementById("el");
-    fib(m);
     if (document.form1.numFib.value > 0) {
-        console.log('Helolo');
         h1.innerText = 'The number from sequence of fibonacci numbers ' + '= ' + fib(document.form1.numFib.value);
         return true;
     } else {
@@ -48,12 +46,13 @@ function fibNum(event) {
     }
 }
 
-function fib(m) {
-    let arr = [];
-    
-    arr[0] = 0;
-    arr[1] = 1;
-    arr[m] = arr[m-1] + arr[m-2];
-    return m = arr[m];
+
+
+function fib(n) {
+    if (n >= 1) {
+        console.log("fib(n - 1) - " + fib(n - 1));
+        console.log("fib(n - 2) - " + fib(n - 21));
+    }
+    return n <= 1 ? n : fib(n - 1) + fib(n - 2);
 }
 

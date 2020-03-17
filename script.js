@@ -18,9 +18,7 @@ function checkData(event) {
     event.preventDefault();
 
     const h1 = document.getElementById("el");
-    function factorial(n) {
-        return n ? n * factorial(n-1) : 1;
-    }
+    
     if (document.form1.threeChar.value != 0) {
         h1.innerText = 'The factorial of ' + document.form1.threeChar.value + " = " + (factorial(document.form1.threeChar.value));
         return true;
@@ -29,6 +27,10 @@ function checkData(event) {
         h1.innerText = 'Invalid value entered';
         return false;
     }
+}
+
+function factorial(n) {
+    return n ? n * factorial(n-1) : 1;
 }
 
 function fibNum(event) {

@@ -72,10 +72,28 @@ function isSorted(event) {
     }
 }
 
+
 function isPrime(e) {
     e.preventDefault();
     const h1 = document.getElementById("el");
-    debugger;
+    let n = 10;
+
+    nextPrime:
+    
+        if (document.getElementById % 2 == 0) {
+            alert('False');
+            break;
+         
+      } else {
+          alert('True');
+          break;
+      }
+    // break;
+ //     alert( i ); // простое число
+    }
+//break;   
+
+/*    debugger;
     if (document.form1.numFib.value > 0) {
         h1.innerText = ' ' + '= ' + prime(document.form1.primeNumber.value);
         return true;
@@ -84,7 +102,7 @@ function isPrime(e) {
         h1.innerText = 'Invalid value entered';
         return false;
     }
-}
+}*/
 
 // function isPrime(event) {
 //     event.preventDefault();
@@ -118,8 +136,8 @@ function isPrime(e) {
         }
         alert();
     }
-}*/
+}
 
 function prime(k) {
-    return k;
-}
+    return k    ;
+}*/

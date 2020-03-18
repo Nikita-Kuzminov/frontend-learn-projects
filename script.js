@@ -80,14 +80,15 @@ function isSorted(event) {
 
 }
   
-function isPalindrome(event) {
+function filter(event) {
     event.preventDefault();
     const h1 = document.getElementById("el");
-    console.log('reversed: ', reverseString());
+    let arr1 = [1, 2, 3, 4];
+    console.log('Array: ', filtSort(arr1));
 }
 
-function reverseString(reversed) {
-    arr1 = [document.form1.arrString.value];
-    reversed = arr1.reverse();
-    return reversed;
-}
+function filtSort(m) {
+//    let m = [];
+    m = m.length < 3;
+    return m;
+}    

@@ -78,21 +78,3 @@ function isSorted(event) {
         alert('True');
     }
 }
-  
-function filter(event) {
-    event.preventDefault();
-    const h1 = document.getElementById("el");
-    let arr1 = [1, 2, 3, 4, 5, 6, 7];
-    filterArray(arr1, value => value > 2)
-    
-}
-
-function filterArray(array, filterFunction) {
-    console.log('Original array: ', array);
-    for (let i = 0; i < array.length; i++) {
-        if (filterFunction(array[i])) {
-            delete array[i];
-        }
-    }
-    console.log('Filtered array: ', array);
-}

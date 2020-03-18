@@ -18,7 +18,7 @@ function checkData(event) {
     event.preventDefault();
 
     const h1 = document.getElementById("el");
-    
+
     if (document.form1.threeChar.value != 0) {
         h1.innerText = 'The factorial of ' + document.form1.threeChar.value + " = " + (factorial(document.form1.threeChar.value));
         return true;
@@ -30,7 +30,7 @@ function checkData(event) {
 }
 
 function factorial(n) {
-    return n ? n * factorial(n-1) : 1;
+    return n ? n * factorial(n - 1) : 1;
 }
 
 function fibNum(event) {
@@ -54,21 +54,21 @@ function isSorted(event) {
     event.preventDefault();
     const h1 = document.getElementById("el");
     let numbers = [];
-  
+
     while (true) {
-  
-      let value = prompt("Введите число", 0);
-  
-      // Прекращаем ввод?
-      if (value === "" || value === null || !isFinite(value)) break;
-  
-      numbers.push(+value);
+
+        let value = prompt("Введите число", 0);
+
+        // Прекращаем ввод?
+        if (value === "" || value === null || !isFinite(value)) break;
+
+        numbers.push(+value);
     }
-  
+
     let sorted = true;
 
     for (let i = 0; i < numbers.length - 1; i++) {
-        if (numbers[i] > numbers[i+1]) {
+        if (numbers[i] > numbers[i + 1]) {
             sorted = false;
             alert('False');
             break;
@@ -79,12 +79,12 @@ function isSorted(event) {
     }
 }
 
-function fittArr() {
-    return array[i] > 5;
+function fittArr(value) {
+    return value > 3;
 }
 
-function filtStrins() {
-    return arrStrings = "test";
+function filtStrings(value) {
+    return value === "test";
 }
 
 function filter(event) {
@@ -92,20 +92,22 @@ function filter(event) {
     const h1 = document.getElementById("el");
     let arr1 = [1, 2, 3, 4, 5];
     let arrStrings = ["34", "sdfsfd", "test"];
-    console.log(filtered(arr1, fittArr));
-    console.log(filtered(arrStrings, filtStrins));
+    filtered(arr1, fittArr);
+    filtered(arrStrings, filtStrings);
 
 }
 
 function filtered(array, filteredFun) {
-    let arrNum = [];
+    console.log("Original array " + array);
+    let filteredArray = [];
     for (let i = 0; i < array.length; i++) {
-        if (filteredFun()) {
-            arrNum.push(array[i]);
+        if (!filteredFun(array[i])) {
+            filteredArray.push(array[i]);
         }
-    }  
-    
-    return arrNum;
+    }
+
+    console.log("Filtered array " + filteredArray);
+    return filteredArray;
 }
 
 

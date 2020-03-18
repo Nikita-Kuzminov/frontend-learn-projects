@@ -79,21 +79,33 @@ function isSorted(event) {
     }
 }
 
+function fittArr() {
+    return array[i] > 5;
+}
+
+function filtStrins() {
+    return arrStrings = "test";
+}
+
 function filter(event) {
     event.preventDefault();
     const h1 = document.getElementById("el");
     let arr1 = [1, 2, 3, 4, 5];
-    console.log(filtered(arr1, filtered));
+    let arrStrings = ["34", "sdfsfd", "test"];
+    console.log(filtered(arr1, fittArr));
+    console.log(filtered(arrStrings, filtStrins));
 
 }
 
 function filtered(array, filteredFun) {
     let arrNum = [];
     for (let i = 0; i < array.length; i++) {
-        if (!filteredFun) {
+        if (filteredFun()) {
             arrNum.push(array[i]);
         }
-    }    
+    }  
+    
+    return arrNum;
 }
 
 

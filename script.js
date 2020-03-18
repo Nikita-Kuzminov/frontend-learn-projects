@@ -80,3 +80,14 @@ function isSorted(event) {
 
 }
   
+function isPalindrome(event) {
+    event.preventDefault();
+    const h1 = document.getElementById("el");
+    console.log('reversed: ', reverseString());
+}
+
+function reverseString(reversed) {
+    arr1 = [document.form1.arrString.value];
+    reversed = arr1.reverse();
+    return reversed;
+}

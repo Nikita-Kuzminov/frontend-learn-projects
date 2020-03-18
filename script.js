@@ -77,21 +77,22 @@ function isSorted(event) {
     if (sorted == true) {
         alert('True');
     }
-
 }
   
 function filter(event) {
     event.preventDefault();
     const h1 = document.getElementById("el");
     let arr1 = [1, 2, 3, 4, 5, 6, 7];
-    for (let i = 0; i < arr1.length; i++) {
-        if (arr1[i] < 5) {
-            delete arr1[i];
-        }
-    }
-    console.log('Array: ', arr1);
+    filterArray(arr1, value => value > 2)
+    
 }
 
-function filtSort() {
-    
+function filterArray(array, filterFunction) {
+    console.log('Original array: ', array);
+    for (let i = 0; i < array.length; i++) {
+        if (filterFunction(array[i])) {
+            delete array[i];
+        }
+    }
+    console.log('Filtered array: ', array);
 }

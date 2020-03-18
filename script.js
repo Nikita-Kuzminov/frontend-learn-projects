@@ -83,12 +83,15 @@ function isSorted(event) {
 function filter(event) {
     event.preventDefault();
     const h1 = document.getElementById("el");
-    let arr1 = [1, 2, 3, 4];
-    console.log('Array: ', filtSort(arr1));
+    let arr1 = [1, 2, 3, 4, 5, 6, 7];
+    for (let i = 0; i < arr1.length; i++) {
+        if (arr1[i] < 5) {
+            delete arr1[i];
+        }
+    }
+    console.log('Array: ', arr1);
 }
 
-function filtSort(m) {
-//    let m = [];
-    m = m.length < 3;
-    return m;
-}    
+function filtSort() {
+    
+}

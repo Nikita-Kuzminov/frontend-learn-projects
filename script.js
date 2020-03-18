@@ -78,3 +78,22 @@ function isSorted(event) {
         alert('True');
     }
 }
+
+function filter(event) {
+    event.preventDefault();
+    const h1 = document.getElementById("el");
+    let arr1 = [1, 2, 3, 4, 5];
+    console.log(filtered(arr1, filtered));
+
+}
+
+function filtered(array, filteredFun) {
+    let arrNum = [];
+    for (let i = 0; i < array.length; i++) {
+        if (!filteredFun) {
+            arrNum.push(array[i]);
+        }
+    }    
+}
+
+

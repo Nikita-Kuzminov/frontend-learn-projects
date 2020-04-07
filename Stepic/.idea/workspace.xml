@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c9522cf7-1908-455d-9a00-ed5f6ed397f7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maket.html" beforeDir="false" afterPath="$PROJECT_DIR$/maket.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +49,7 @@
       <workItem from="1585985298148" duration="1820000" />
       <workItem from="1586181785746" duration="771000" />
       <workItem from="1586192379784" duration="5273000" />
-      <workItem from="1586242348333" duration="31912000" />
+      <workItem from="1586242348333" duration="32545000" />
     </task>
     <task id="LOCAL-00001" summary="Create head of figma layout">
       <created>1586196670094</created>
@@ -60,7 +58,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586196670094</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ended Figma layout, homework from stepic">
+      <created>1586281551014</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586281551014</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,25 +86,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create head of figma layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create head of figma layout" />
+    <MESSAGE value="Ended Figma layout, homework from stepic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ended Figma layout, homework from stepic" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="7" key="CommitChangelistDialog2" timestamp="1586196669277">
+    <state x="393" y="7" key="CommitChangelistDialog2" timestamp="1586281550405">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586196669277" />
+    <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586281550405" />
     <state x="277" y="55" key="SettingsEditor" timestamp="1586277127404">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586277127404" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1586281438551">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1586282051097">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1586281438551" />
-    <state x="361" y="134" key="Vcs.Push.Dialog.v2" timestamp="1586196673534">
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1586282051097" />
+    <state x="361" y="134" key="Vcs.Push.Dialog.v2" timestamp="1586281555973">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="134" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586196673534" />
+    <state x="361" y="134" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586281555973" />
     <state x="408" y="27" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586275222446">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

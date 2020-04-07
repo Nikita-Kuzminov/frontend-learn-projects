@@ -2,24 +2,133 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Figma layout</title>
+    <title>piedpiper</title>
     <link href="style.css" rel="stylesheet">
+    <link rel="icon"
+          type="image/png"
+          href="favicon.png">
 </head>
+
 <body>
 
-<div class="rectangle">
-    <div id="vector"></div>
-    <div id="theProblem">the problem |</div>
+<!--блок шапки-->
 
+<div>
+    <!--фон шапки-->
+    <div class="rectangle"></div>
+    <!--Логотип, расположенный слева в шапке-->
+    <div class="rectangle__logo"><img src="Vector.png" alt="Logo"></div>
+    <!--Элементы-якоря, находящиеся справа в шапке-->
+    <a href="#anchorTrouble" class="rectangle__theProblem">the problem</a>
+    <div class="rectangle__firstBorder">|</div>
+    <a href="#anchorPPC" class="rectangle__piedPiperCoin">PiedPiperCoin</a>
+    <div class="rectangle__secondBorder">|</div>
+    <a href="#anchorTeam" class="rectangle__theTeam">the team</a>
 </div>
 
-<section class="hero">             <!-- Hero-блок, у которого на фоне красивой картинки девиз, цитата или взрывная фраза-->
-    <div class="container">
-        <div class="hero__message">
-            PiperNet Is Here
-        </div>
+
+<!-- Hero-блок, у которого на фоне красивой картинки девиз, цитата или взрывная фраза-->
+
+<div class="hero__container">
+    <div class="hero__message">PiperNet Is Here</div>
+</div>
+
+
+<!--Блок с названием the problem-->
+
+<div class="boxTheProblem">
+    <div class="boxTheProblem__head" id="anchorTrouble">The Problem</div>
+    <div class="boxTheProblem__text">
+        <p>Beneath the flashy homepages of your favorite sites lurk Hooli™ and other evil
+            corporations out to hoard and sell your most personal data.</p>
+        <p>What was built to be the ultimate platform for the
+            free sharing of knowledge has turned into a money-hungry monster feasting on our privacy and freedom. </p>
+        <p>But fear not, for Pied Piper has the answer! And it’s simple: An autonomous peer-to-peer network featuring
+            distributed
+            storage powered by universal compression, accelerated scheduling allocation, and end-to-end encryption.</p>
+        <p>Put even
+            simpler — <strong>it’s the internet, completely decentralized.</strong></p>
     </div>
-</section>
+</div>
+
+
+<!--Второй Hero-блок-->
+
+<div class="hero__containerSecond">
+    <div class="hero__messageSecond">We’re in this together! All of our computers and phones join in a network to make
+        the strongest supercomputer the world has ever seen.
+    </div>
+</div>
+
+
+<!--Блок с PiedPiperCoin (PPC)-->
+
+<div class="boxPPC">
+    <div class="boxPPC__introducing" id="anchorPPC">Introducing PiedPiperCoin</div>
+    <div class="boxPPC__image"></div>
+    <div class="boxPPC__textWithImage">
+        <p>Pied Piper's new internet is built <em>for users, by users.</em><br> You supply the storage, compute, and
+            networking resources
+            that power our entire decentralized web.</p>
+    </div>
+    <div class="boxPPC__text">
+        <p>Now there's a way to give credit where credit is due. Compute credit, that is! The more you share your device
+            resources, the more PiedPiperCoin you receive.</p>
+        <p>Whether you're a developer with an app ready for market, or just
+            an Average Joe with a smartphone you'll love all you can do with PiedPiperCoin.</p>
+    </div>
+</div>
+
+
+<!--Блок с командой программистов-->
+
+<div class="boxTeam">
+    <div class="boxTeam__Header" id="anchorTeam">The Team</div>
+    <!--    Вложенный блок с фотографией, именем и должностью Ричарда-->
+    <div class="boxTeam__richard">
+        <div class="boxTeam__richardPhoto"></div>
+        <div class="boxTeam__richardName">Richard Hendricks</div>
+        <div class="boxTeam__richardPosition"><em>Founder & CEO</em></div>
+    </div>
+    <!--    Блок с Динешом-->
+    <div class="boxTeam__dinesh">
+        <div class="boxTeam__dineshPhoto"></div>
+        <div class="boxTeam__dineshName">Dinesh Chugtai</div>
+        <div class="boxTeam__dineshPosition"><em>Senior Programmer</em></div>
+    </div>
+    <!--    Блок с Бертрамом-->
+    <div class="boxTeam__bertram">
+        <div class="boxTeam__bertramPhoto"></div>
+        <div class="boxTeam__bertramName">Bertram Gilfoyle</div>
+        <div class="boxTeam__bertramPosition"><em>Chief Systems Architect</em></div>
+    </div>
+    <!--    Блок с Джаредом-->
+    <div class="boxTeam__jared">
+        <div class="boxTeam__jaredPhoto"></div>
+        <div class="boxTeam__jaredName">Jared Dunn</div>
+        <div class="boxTeam__jaredPosition"><em>Chief Operating Officer</em></div>
+    </div>
+    <!--    Блок с Моникой-->
+    <div class="boxTeam__monica">
+        <div class="boxTeam__monicaPhoto"></div>
+        <div class="boxTeam__monicaName">Monica Hall</div>
+        <div class="boxTeam__monicaPosition"><em>Chief Financial Officer</em></div>
+    </div>
+    <!--    Блок с Нельсоном-->
+    <div class="boxTeam__nelson">
+        <div class="boxTeam__nelsonPhoto"></div>
+        <div class="boxTeam__nelsonName">Nelson Bighetti</div>
+        <div class="boxTeam__nelsonPosition"><em>Majority Investor</em></div>
+    </div>
+</div>
+
+<!-- Блок внизу страницы с текстом -->
+
+<div class="rectangleBottom"></div>
+<!--текст фонового блока выше-->
+<div class="rectangleBottomText">All other trademarks and copyrights are the property of their respective owners. Use of
+    these names, trademarks and brands does not imply endorsement.
+</div>
 
 </body>
 

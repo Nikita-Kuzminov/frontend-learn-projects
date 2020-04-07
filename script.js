@@ -18,7 +18,7 @@ function checkData(event) {
     event.preventDefault();
 
     const h1 = document.getElementById("el");
-
+    
     if (document.form1.threeChar.value != 0) {
         h1.innerText = 'The factorial of ' + document.form1.threeChar.value + " = " + (factorial(document.form1.threeChar.value));
         return true;
@@ -30,7 +30,7 @@ function checkData(event) {
 }
 
 function factorial(n) {
-    return n ? n * factorial(n - 1) : 1;
+    return n ? n * factorial(n-1) : 1;
 }
 
 function fibNum(event) {
@@ -54,21 +54,14 @@ function isSorted(event) {
     event.preventDefault();
     const h1 = document.getElementById("el");
     let numbers = [];
-
     while (true) {
-
-        let value = prompt("Введите число", 0);
-
-        // Прекращаем ввод?
-        if (value === "" || value === null || !isFinite(value)) break;
-
-        numbers.push(+value);
+      let value = prompt("Enter a number", 0);
+      if (value === "" || value === null || !isFinite(value)) break;
+      numbers.push(+value);
     }
-
     let sorted = true;
-
     for (let i = 0; i < numbers.length - 1; i++) {
-        if (numbers[i] > numbers[i + 1]) {
+        if (numbers[i] > numbers[i+1]) {
             sorted = false;
             alert('False');
             break;
@@ -79,35 +72,33 @@ function isSorted(event) {
     }
 }
 
-function fittArr(value) {
-    return value > 3;
-}
+function isPrime(e) {                                             //объявили функцию, которая возвращает значение переменной e
+    e.preventDefault();                                           //сделали так, чтобы страница каждый раз возвращалась в исходное
+                                                                  //положение после нажатия на любую из кнопок. Чтобы страница не
+                                                                  //оставалась в подвешенном состоянии, а продолжала функционировать
+    const h1 = document.getElementById("el");                     //объявили переменную h1, передав в неё значение с html-файла из body
 
-function filtStrings(value) {
-    return value === "test";
-}
+    if (document.form1.primeNumber.value > 0) {                   //если введённое значение больше нуля
+        const value = Number(document.form1.primeNumber.value);   // присваиваем новой переменной value введённое значение
+        const isPrime = isPrimeCheck(value);                      //создаём ещё переменную, которой присваиваем значение,
+                                                                  //возвращённое из функции isPrimeCheck
 
-function filter(event) {
-    event.preventDefault();
-    const h1 = document.getElementById("el");
-    let arr1 = [1, 2, 3, 4, 5];
-    let arrStrings = ["34", "sdfsfd", "test"];
-    filtered(arr1, fittArr);
-    filtered(arrStrings, filtStrings);
+        if (isPrime) {                                            //функция обращается к самой себе (в случае выполнения функции)
+            h1.innerText = 'The number is prime';                 //нужно вывести на экран текст 'The number is prime'
+        } else h1.innerText = 'The number is not prime';          //Если нет - выводим альтернативный текст 'The number is not prime'
 
-}
-
-function filtered(array, filteredFun) {
-    console.log("Original array " + array);
-    let filteredArray = [];
-    for (let i = 0; i < array.length; i++) {
-        if (!filteredFun(array[i])) {
-            filteredArray.push(array[i]);
-        }
+    } else {
+        alert("Enter number > 0");                                //если изначально введённое значение меньше нуля, то сайт выдаёт
+                                                                  //сообщение "Enter number > 0"
+        h1.innerText = 'Invalid value entered';                   //а на самой страничке выводится запись: 'Invalid value entered'
     }
-
-    console.log("Filtered array " + filteredArray);
-    return filteredArray;
 }
 
 
+function isPrimeCheck(num) {                                      //новая функция, возвращающая значение переменноц num
+    for(var i = 2; i < num; i++)                                  //создаём новую переменную i, равную двум; возвращаться в цикл,
+                                                                  //пока i не станет равным num; i увеличивать с каждой итерацией на 1
+      if(num % i === 0) return false;                             //если результат деления без остатка num на i будет равен нулю,
+                                                                  //функция возвращает значение false
+    return num > 1;                                               //если не равен нулю, функция возвращает переменную num > 1
+  }

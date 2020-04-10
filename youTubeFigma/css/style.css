@@ -437,6 +437,10 @@ img {
     margin-bottom: 77px;
 }
 
+.tour__info{
+    padding-left: 47px;
+}
+
 .tour__title{
     font-weight: 500;
     font-size: 30px;

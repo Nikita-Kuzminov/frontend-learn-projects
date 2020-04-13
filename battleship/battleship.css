@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+}
+
+canvas {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+    position: fixed;
+    touch-action: none;
+    top: 0;
+    left: 0;
+    z-index : -1;
+}
+
+div#board {
+    height: 100%;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+        url("img/board.jpg") no-repeat center center;
+}
+
+div#messageArea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    color: rgb(83, 175, 19);
+    font-size: 35px;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-spacing: 0px;
+}
+
+td {
+    border: 2px solid rgba(53, 112, 11, 0.808);
+    width: 94px;
+    height: 94px;
+}
+
+td:hover {
+    background-color: rgb(18, 90, 18);
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#form {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 15px;
+    background-color: rgb(83, 175, 19);
+}
+
+form input {
+    background-color: rgb(152, 207, 113);
+    border-color: rgb(83, 175, 19);
+    font-size: 1em;
+}
+
+.hit {
+    background: url("img/ship.png") no-repeat center center;
+}
+
+.miss {
+    background: url("img/miss.png") no-repeat center center;
+    /* background-size: cover; */
+}

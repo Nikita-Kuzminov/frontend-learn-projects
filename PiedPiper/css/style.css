@@ -1,0 +1,1672 @@
+/*Сначала медиа-запросом убеждаемся в ширине экрана, чтобы сайт сразу же был адаптирован под его размеры*/
+@media screen and (min-width: 1220px) {
+
+    .rectangle {
+
+        /*фон шапки*/
+
+        position: absolute;
+        width: 2011px;
+        height: 84px;
+        left: 0;
+        top: 0;
+
+        background: #007765;
+    }
+
+    .rectangle__logo {
+
+        /*логотип piedpiper для шапки*/
+
+        position: absolute;
+        width: 184px;
+        height: 45px;
+        left: 501px;
+        top: 20px;
+    }
+
+    .rectangle__theProblem {
+
+        /*элемент the problem в шапке*/
+
+        position: absolute;
+        width: 129px;
+        height: 29px;
+        left: 1187px;
+        top: 28px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+
+        text-align: center;
+
+        color: #FFFFFF;
+
+        text-decoration: none; /*чтобы убрать подчёркивание ссылки-якоря the problem на соответствующий блок на сайте*/
+    }
+
+    .rectangle__firstBorder {
+
+        /*первый разделитель между элемнтами в шапке*/
+
+        position: absolute;
+        width: 7px;
+        height: 29px;
+        left: 1324px;
+        top: 28px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .rectangle__piedPiperCoin {
+
+        /*второй элемент в шапке*/
+
+        position: absolute;
+        width: 154px;
+        height: 29px;
+        left: 1339px;
+        top: 29px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+
+        text-align: center;
+
+        color: #FFFFFF;
+
+        text-decoration: none;
+    }
+
+    .rectangle__secondBorder {
+
+        /*второй разделитель между элемнтами в шапке*/
+
+        position: absolute;
+        width: 7px;
+        height: 29px;
+        left: 1501px;
+        top: 29px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .rectangle__theTeam {
+
+        /*третий элемент в шапке*/
+
+        position: absolute;
+        width: 95px;
+        height: 29px;
+        left: 1516px;
+        top: 29px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+
+        text-align: center;
+
+        color: #FFFFFF;
+
+        text-decoration: none;
+    }
+    .hero__container {
+
+        /*Фон-картинка первого hero-блока*/
+
+        position: absolute;
+        width: 2011px;
+        height: 403px;
+        left: 0;
+        top: 84px;
+
+        background: url("../img/heroBack.png");
+    }
+
+    .hero__message {
+
+        /*Надпись по центру hero-блока*/
+
+        position: absolute;
+        width: 1219px;
+        height: 83px;
+        left: 396px;
+        top: 150px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 72px;
+        line-height: 84px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .boxTheProblem {
+
+        /*блок с названием the problem*/
+
+        position: absolute;
+        width: 2011px;
+        height: 650px;
+        left: 0;
+        top: 487px;
+
+        background: #EEEEEE;
+    }
+
+    .boxTheProblem__head {
+
+        /*заголовок текста в блоке the problem */
+
+        position: absolute;
+        width: 1107px;
+        height: 75px;
+        left: 451px;
+        top: 50px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 75px;
+        text-align: center;
+
+        color: #007765;
+    }
+
+    .boxTheProblem__text {
+
+        /*текст в блоке the problem */
+
+        position: absolute;
+        width: 1110px;
+        height: 488px;
+        left: 451px;
+        top: 120px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 37px;
+
+        color: #000000;
+    }
+
+    .hero__containerSecond {
+
+        /*Второй hero-блок*/
+
+        position: absolute;
+        width: 2011px;
+        height: 483px;
+        left: 0;
+        top: 1100px;
+
+        background: url("../img/secondHeroBack.png");
+    }
+
+    .hero__messageSecond {
+
+        /*Текст для второго hero-блока*/
+
+        position: absolute;
+        width: 893px;
+        height: 228px;
+        left: 559px;
+        top: 130px;
+
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .boxPPC {
+
+        /*Блок с PiedPiperCoin*/
+
+        position: absolute;
+        width: 2011px;
+        height: 604px;
+        left: 0;
+        top: 1580px;
+
+        background: #FFFFFF;
+    }
+
+    .boxPPC__introducing {
+
+        /*Заголовок блока */
+
+        position: absolute;
+        width: 1110px;
+        height: 75px;
+        left: 451px;
+        top: 48px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 75px;
+        text-align: center;
+
+        color: #007765;
+    }
+
+    .boxPPC__image {
+
+        /*Логотип PPC в блоке PPC*/
+
+        position: absolute;
+        width: 115px;
+        height: 115px;
+        left: 425px;
+        top: 150px;
+
+        background: url("../img/logoPPC.png");
+    }
+
+    .boxPPC__textWithImage {
+
+        /*Текст блока PPC напротив лого*/
+
+        position: absolute;
+        width: 930px;
+        height: 110px;
+        left: 580px;
+        top: 120px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 37px;
+
+        color: #000000;
+    }
+
+    .boxPPC__text {
+
+        /*Текст под лого*/
+
+        position: absolute;
+        width: 1110px;
+        height: 223px;
+        left: 425px;
+        top: 275px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 37px;
+
+        color: #000000;
+    }
+
+    .boxTeam {
+
+        /*блок с членами команды*/
+
+        position: absolute;
+        width: 2011px;
+        height: 845px;
+        left: 0;
+        top: 2183px;
+
+        background: #EEEEEE;
+    }
+
+    .boxTeam__Header {
+
+        /*Заголовок блока с командой*/
+
+        position: absolute;
+        width: 1110px;
+        height: 75px;
+        left: 451px;
+        top: 48px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 75px;
+        text-align: center;
+
+        color: #007765;
+    }
+
+    .boxTeam__richard {
+
+        /*отдельный блок с Ричардом в блоке команды*/
+
+        position: absolute;
+        width: 350px;
+        height: 283px;
+        left: 451px;
+        right: 1210px;
+        top: 165px;
+        bottom: 397px;
+
+         
+    }
+
+    .boxTeam__richardPhoto {
+
+        /*фотография Ричарда*/
+
+        position: absolute;
+        width: 168px;
+        height: 168px;
+        left: 91px;
+        right: 91px;
+        bottom: 91px;
+        top: 24px;
+
+        background: url("../img/richard.png");
+    }
+
+    .boxTeam__richardName {
+
+        /*Имя Ричарда*/
+
+        position: absolute;
+        width: 300px;
+        height: 29px;
+        bottom: 50px;
+        top: 204px;
+        left: 67px;
+        right: 74px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #007765;
+    }
+
+    .boxTeam__richardPosition {
+
+        /*Должность Ричарда*/
+
+        position: absolute;
+        width: 200px;
+        height: 22px;
+        top: 233px;
+        bottom: 28px;
+        left: 105px;
+        right: 117px;
+
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+
+        color: #000000;
+    }
+
+    .boxTeam__dinesh {
+
+        /*Блок с Динешом*/
+
+        position: absolute;
+        width: 350px;
+        height: 283px;
+        left: 831px;
+        top: 165px;
+
+         
+    }
+
+    .boxTeam__dineshPhoto {
+
+        /*Фотография Динеша*/
+
+        position: absolute;
+        width: 168px;
+        height: 168px;
+        left: 91px;
+        right: 91px;
+        bottom: 91px;
+        top: 24px;
+
+        background: url("../img/dinesh.png");
+    }
+
+    .boxTeam__dineshName {
+
+        /*Имя Динеша*/
+
+        position: absolute;
+        width: 300px;
+        height: 29px;
+        bottom: 50px;
+        top: 204px;
+        left: 85px;
+        right: 74px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #007765;
+    }
+
+    .boxTeam__dineshPosition {
+
+        /*Должность Динеша*/
+
+        position: absolute;
+        width: 200px;
+        height: 22px;
+        top: 233px;
+        bottom: 28px;
+        left: 95px;
+        right: 115px;
+
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+
+        color: #000000;
+    }
+
+    .boxTeam__bertram {
+
+        /*Блок с Бертрамом*/
+
+        position: absolute;
+        width: 350px;
+        height: 283px;
+        left: 1211px;
+        top: 165px;
+
+         
+    }
+
+    .boxTeam__bertramPhoto {
+
+        /*Фотография Бертрама*/
+
+        position: absolute;
+        width: 168px;
+        height: 168px;
+        left: 91px;
+        right: 91px;
+        bottom: 91px;
+        top: 24px;
+
+        background: url("../img/bertram.png");
+    }
+
+    .boxTeam__bertramName {
+
+        /*Имя Бертрама*/
+
+        position: absolute;
+        width: 300px;
+        height: 29px;
+        bottom: 50px;
+        top: 204px;
+        left: 82px;
+        right: 74px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #007765;
+    }
+
+    .boxTeam__bertramPosition {
+
+        /*Должность Бертрама*/
+
+        position: absolute;
+        width: 200px;
+        height: 22px;
+        top: 233px;
+        bottom: 28px;
+        left: 78px;
+        right: 115px;
+
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+
+        color: #000000;
+    }
+
+    .boxTeam__jared {
+
+        /*Блок с Джаредом*/
+
+        position: absolute;
+        width: 350px;
+        height: 283px;
+        left: 451px;
+        top: 478px;
+
+         
+    }
+
+    .boxTeam__jaredPhoto {
+
+        /*Фотография Джареда*/
+
+        position: absolute;
+        width: 168px;
+        height: 168px;
+        left: 91px;
+        right: 91px;
+        bottom: 91px;
+        top: 24px;
+
+        background: url("../img/jared.png");
+    }
+
+    .boxTeam__jaredName {
+
+        /*Имя Джареда*/
+
+        position: absolute;
+        width: 300px;
+        height: 29px;
+        bottom: 50px;
+        top: 204px;
+        left: 108px;
+        right: 84px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #007765;
+    }
+
+    .boxTeam__jaredPosition {
+
+        /*Должность Джареда*/
+
+        position: absolute;
+        width: 200px;
+        height: 22px;
+        top: 233px;
+        bottom: 28px;
+        left: 78px;
+        right: 115px;
+
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+
+        color: #000000;
+    }
+
+    .boxTeam__monica {
+
+        /*Блок с Моникой*/
+
+        position: absolute;
+        width: 350px;
+        height: 283px;
+        left: 831px;
+        top: 478px;
+
+         
+    }
+
+    .boxTeam__monicaPhoto {
+
+        /*Фотография Моники*/
+
+        position: absolute;
+        width: 168px;
+        height: 168px;
+        left: 91px;
+        right: 91px;
+        bottom: 91px;
+        top: 24px;
+
+        background: url("../img/monica.png");
+    }
+
+    .boxTeam__monicaName {
+
+        /*Имя Моники*/
+
+        position: absolute;
+        width: 300px;
+        height: 29px;
+        bottom: 50px;
+        top: 204px;
+        left: 108px;
+        right: 84px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #007765;
+    }
+
+    .boxTeam__monicaPosition {
+
+        /*Должность Моники*/
+
+        position: absolute;
+        width: 200px;
+        height: 22px;
+        top: 233px;
+        bottom: 28px;
+        left: 85px;
+        right: 115px;
+
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+
+        color: #000000;
+    }
+
+    .boxTeam__nelson {
+
+        /*Блок с Нельсоном*/
+
+        position: absolute;
+        width: 350px;
+        height: 283px;
+        left: 1211px;
+        top: 478px;
+
+         
+    }
+
+    .boxTeam__nelsonPhoto {
+
+        /*Фотография Нельсона*/
+
+        position: absolute;
+        width: 168px;
+        height: 168px;
+        left: 91px;
+        right: 91px;
+        bottom: 91px;
+        top: 24px;
+
+        background: url("../img/nelson.png");
+    }
+
+    .boxTeam__nelsonName {
+
+        /*Имя Нельсона*/
+
+        position: absolute;
+        width: 300px;
+        height: 29px;
+        bottom: 50px;
+        top: 204px;
+        left: 87px;
+        right: 74px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #007765;
+    }
+
+    .boxTeam__nelsonPosition {
+
+        /*Должность Нельсона*/
+
+        position: absolute;
+        width: 200px;
+        height: 22px;
+        top: 233px;
+        bottom: 28px;
+        left: 110px;
+        right: 115px;
+
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+
+        color: #000000;
+    }
+
+.rectangleBottom {
+
+    /*блок внизу страницы*/
+
+    position: absolute;
+    width: 2011px;
+    height: 176px;
+    left: 0;
+    top: 3030px;
+
+    background: #333333;
+}
+
+.rectangleBottomText {
+
+    /*текст блока*/
+
+    position: absolute;
+    width: 540px;
+    height: 64px;
+    left: 736px;
+    top: 3088px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+}
+
+/* Разделитель разных медиа-запросов*/
+
+/*000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111*/
+/*000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111*/
+/*000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111*/
+/*000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111*/
+/*000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111*/
+/*000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+/*111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111*/
+
+
+/*Адаптируем под экраны смартфонов с помощью медиа-запроса*/
+@media screen and (max-width: 1219px) {
+
+    .rectangle {
+
+        /*фон шапки*/
+
+        position: absolute;
+        width: 1219px;
+        height: 84px;
+        left: 0;
+        top: 0;
+
+        background: #007765;
+    }
+
+    .rectangle__logo {
+
+        /*логотип piedpiper для шапки*/
+
+        position: absolute;
+        width: 184px;
+        height: 45px;
+        left: 55px;
+        top: 20px;
+    }
+
+    .rectangle__theProblem {
+
+        /*элемент the problem в шапке*/
+
+        position: absolute;
+        width: 129px;
+        height: 29px;
+        left: 741px;
+        top: 28px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+
+        text-align: center;
+
+        color: #FFFFFF;
+
+        text-decoration: none; /*чтобы убрать подчёркивание ссылки-якоря the problem на соответствующий блок на сайте*/
+    }
+
+    .rectangle__firstBorder {
+
+        /*первый разделитель между элемнтами в шапке*/
+
+        position: absolute;
+        width: 7px;
+        height: 29px;
+        left: 878px;
+        top: 28px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .rectangle__piedPiperCoin {
+
+        /*второй элемент в шапке*/
+
+        position: absolute;
+        width: 154px;
+        height: 29px;
+        left: 893px;
+        top: 29px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+
+        text-align: center;
+
+        color: #FFFFFF;
+
+        text-decoration: none;
+    }
+
+    .rectangle__secondBorder {
+
+        /*второй разделитель между элемнтами в шапке*/
+
+        position: absolute;
+        width: 7px;
+        height: 29px;
+        left: 1055px;
+        top: 29px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .rectangle__theTeam {
+
+        /*третий элемент в шапке*/
+
+        position: absolute;
+        width: 95px;
+        height: 29px;
+        left: 1070px;
+        top: 29px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+
+        text-align: center;
+
+        color: #FFFFFF;
+
+        text-decoration: none;
+    }
+    .hero__container {
+
+        /*Фон-картинка первого hero-блока*/
+
+        position: absolute;
+        width: 1219px;
+        height: 403px;
+        left: 0;
+        top: 84px;
+
+        background: url("../img/heroBack.png");
+    }
+
+    .hero__message {
+
+        /*Надпись по центру hero-блока*/
+
+        position: absolute;
+        width: 1219px;
+        height: 83px;
+        left: 0;
+        top: 150px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 72px;
+        line-height: 84px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .boxTheProblem {
+
+        /*блок с названием the problem*/
+
+        position: absolute;
+        width: 1219px;
+        height: 650px;
+        left: 0;
+        top: 487px;
+
+        background: #EEEEEE;
+    }
+
+    .boxTheProblem__head {
+
+        /*заголовок текста в блоке the problem */
+
+        position: absolute;
+        width: 1107px;
+        height: 75px;
+        left: 55px;
+        top: 50px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 75px;
+        text-align: center;
+
+        color: #007765;
+    }
+
+    .boxTheProblem__text {
+
+        /*текст в блоке the problem */
+
+        position: absolute;
+        width: 1110px;
+        height: 488px;
+        left: 55px;
+        top: 120px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 37px;
+
+        color: #000000;
+    }
+
+    .hero__containerSecond {
+
+        /*Второй hero-блок*/
+
+        position: absolute;
+        width: 1219px;
+        height: 483px;
+        left: 0;
+        top: 1100px;
+
+        background: url("../img/secondHeroBack.png");
+    }
+
+    .hero__messageSecond {
+
+        /*Текст для второго hero-блока*/
+
+        position: absolute;
+        width: 893px;
+        height: 228px;
+        left: 163px;
+        top: 130px;
+
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .boxPPC {
+
+        /*Блок с PiedPiperCoin*/
+
+        position: absolute;
+        width: 1219px;
+        height: 604px;
+        left: 0;
+        top: 1580px;
+
+        background: #FFFFFF;
+    }
+
+    .boxPPC__introducing {
+
+        /*Заголовок блока */
+
+        position: absolute;
+        width: 1110px;
+        height: 75px;
+        left: 55px;
+        top: 48px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 75px;
+        text-align: center;
+
+        color: #007765;
+    }
+
+    .boxPPC__image {
+
+        /*Логотип PPC в блоке PPC*/
+
+        position: absolute;
+        width: 115px;
+        height: 115px;
+        left: 55px;
+        top: 150px;
+
+        background: url("../img/logoPPC.png");
+    }
+
+    .boxPPC__textWithImage {
+
+        /*Текст блока PPC напротив лого*/
+
+        position: absolute;
+        width: 930px;
+        height: 110px;
+        left: 218px;
+        top: 120px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 37px;
+
+        color: #000000;
+    }
+
+    .boxPPC__text {
+
+        /*Текст под лого*/
+
+        position: absolute;
+        width: 1110px;
+        height: 223px;
+        left: 55px;
+        top: 275px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 37px;
+
+        color: #000000;
+    }
+
+    .boxTeam {
+
+        /*блок с членами команды*/
+
+        position: absolute;
+        width: 1219px;
+        height: 845px;
+        left: 0;
+        top: 2183px;
+
+        background: #EEEEEE;
+    }
+
+    .boxTeam__Header {
+
+        /*Заголовок блока с командой*/
+
+        position: absolute;
+        width: 1110px;
+        height: 75px;
+        left: 55px;
+        top: 48px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 75px;
+        text-align: center;
+
+        color: #007765;
+    }
+
+    .boxTeam__richard {
+
+        /*отдельный блок с Ричардом в блоке команды*/
+
+        position: absolute;
+        width: 350px;
+        height: 283px;
+        left: 55px;
+        right: 1210px;
+        top: 165px;
+        bottom: 397px;
+
+
+    }
+
+    .boxTeam__richardPhoto {
+
+        /*фотография Ричарда*/
+
+        position: absolute;
+        width: 168px;
+        height: 168px;
+        left: 91px;
+        right: 91px;
+        bottom: 91px;
+        top: 24px;
+
+        background: url("../img/richard.png");
+    }
+
+    .boxTeam__richardName {
+
+        /*Имя Ричарда*/
+
+        position: absolute;
+        width: 300px;
+        height: 29px;
+        bottom: 50px;
+        top: 204px;
+        left: 67px;
+        right: 74px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #007765;
+    }
+
+    .boxTeam__richardPosition {
+
+        /*Должность Ричарда*/
+
+        position: absolute;
+        width: 200px;
+        height: 22px;
+        top: 233px;
+        bottom: 28px;
+        left: 105px;
+        right: 117px;
+
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+
+        color: #000000;
+    }
+
+    .boxTeam__dinesh {
+
+        /*Блок с Динешом*/
+
+        position: absolute;
+        width: 350px;
+        height: 283px;
+        left: 435px;
+        top: 165px;
+
+
+    }
+
+    .boxTeam__dineshPhoto {
+
+        /*Фотография Динеша*/
+
+        position: absolute;
+        width: 168px;
+        height: 168px;
+        left: 91px;
+        right: 91px;
+        bottom: 91px;
+        top: 24px;
+
+        background: url("../img/dinesh.png");
+    }
+
+    .boxTeam__dineshName {
+
+        /*Имя Динеша*/
+
+        position: absolute;
+        width: 300px;
+        height: 29px;
+        bottom: 50px;
+        top: 204px;
+        left: 85px;
+        right: 74px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #007765;
+    }
+
+    .boxTeam__dineshPosition {
+
+        /*Должность Динеша*/
+
+        position: absolute;
+        width: 200px;
+        height: 22px;
+        top: 233px;
+        bottom: 28px;
+        left: 95px;
+        right: 115px;
+
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+
+        color: #000000;
+    }
+
+    .boxTeam__bertram {
+
+        /*Блок с Бертрамом*/
+
+        position: absolute;
+        width: 350px;
+        height: 283px;
+        left: 815px;
+        top: 165px;
+
+
+    }
+
+    .boxTeam__bertramPhoto {
+
+        /*Фотография Бертрама*/
+
+        position: absolute;
+        width: 168px;
+        height: 168px;
+        left: 91px;
+        right: 91px;
+        bottom: 91px;
+        top: 24px;
+
+        background: url("../img/bertram.png");
+    }
+
+    .boxTeam__bertramName {
+
+        /*Имя Бертрама*/
+
+        position: absolute;
+        width: 300px;
+        height: 29px;
+        bottom: 50px;
+        top: 204px;
+        left: 82px;
+        right: 74px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #007765;
+    }
+
+    .boxTeam__bertramPosition {
+
+        /*Должность Бертрама*/
+
+        position: absolute;
+        width: 200px;
+        height: 22px;
+        top: 233px;
+        bottom: 28px;
+        left: 78px;
+        right: 115px;
+
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+
+        color: #000000;
+    }
+
+    .boxTeam__jared {
+
+        /*Блок с Джаредом*/
+
+        position: absolute;
+        width: 350px;
+        height: 283px;
+        left: 55px;
+        top: 478px;
+
+
+    }
+
+    .boxTeam__jaredPhoto {
+
+        /*Фотография Джареда*/
+
+        position: absolute;
+        width: 168px;
+        height: 168px;
+        left: 91px;
+        right: 91px;
+        bottom: 91px;
+        top: 24px;
+
+        background: url("../img/jared.png");
+    }
+
+    .boxTeam__jaredName {
+
+        /*Имя Джареда*/
+
+        position: absolute;
+        width: 300px;
+        height: 29px;
+        bottom: 50px;
+        top: 204px;
+        left: 108px;
+        right: 84px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #007765;
+    }
+
+    .boxTeam__jaredPosition {
+
+        /*Должность Джареда*/
+
+        position: absolute;
+        width: 200px;
+        height: 22px;
+        top: 233px;
+        bottom: 28px;
+        left: 78px;
+        right: 115px;
+
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+
+        color: #000000;
+    }
+
+    .boxTeam__monica {
+
+        /*Блок с Моникой*/
+
+        position: absolute;
+        width: 350px;
+        height: 283px;
+        left: 435px;
+        top: 478px;
+
+
+    }
+
+    .boxTeam__monicaPhoto {
+
+        /*Фотография Моники*/
+
+        position: absolute;
+        width: 168px;
+        height: 168px;
+        left: 91px;
+        right: 91px;
+        bottom: 91px;
+        top: 24px;
+
+        background: url("../img/monica.png");
+    }
+
+    .boxTeam__monicaName {
+
+        /*Имя Моники*/
+
+        position: absolute;
+        width: 300px;
+        height: 29px;
+        bottom: 50px;
+        top: 204px;
+        left: 108px;
+        right: 84px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #007765;
+    }
+
+    .boxTeam__monicaPosition {
+
+        /*Должность Моники*/
+
+        position: absolute;
+        width: 200px;
+        height: 22px;
+        top: 233px;
+        bottom: 28px;
+        left: 85px;
+        right: 115px;
+
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+
+        color: #000000;
+    }
+
+    .boxTeam__nelson {
+
+        /*Блок с Нельсоном*/
+
+        position: absolute;
+        width: 350px;
+        height: 283px;
+        left: 815px;
+        top: 478px;
+
+
+    }
+
+    .boxTeam__nelsonPhoto {
+
+        /*Фотография Нельсона*/
+
+        position: absolute;
+        width: 168px;
+        height: 168px;
+        left: 91px;
+        right: 91px;
+        bottom: 91px;
+        top: 24px;
+
+        background: url("../img/nelson.png");
+    }
+
+    .boxTeam__nelsonName {
+
+        /*Имя Нельсона*/
+
+        position: absolute;
+        width: 300px;
+        height: 29px;
+        bottom: 50px;
+        top: 204px;
+        left: 87px;
+        right: 74px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #007765;
+    }
+
+    .boxTeam__nelsonPosition {
+
+        /*Должность Нельсона*/
+
+        position: absolute;
+        width: 200px;
+        height: 22px;
+        top: 233px;
+        bottom: 28px;
+        left: 110px;
+        right: 115px;
+
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+
+        color: #000000;
+    }
+
+    .rectangleBottom {
+
+        /*блок внизу страницы*/
+
+        position: absolute;
+        width: 1219px;
+        height: 176px;
+        left: 0;
+        top: 3030px;
+
+        background: #333333;
+    }
+
+    .rectangleBottomText {
+
+        /*текст блока*/
+
+        position: absolute;
+        width: 540px;
+        height: 64px;
+        left: 340px;
+        top: 3088px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+}

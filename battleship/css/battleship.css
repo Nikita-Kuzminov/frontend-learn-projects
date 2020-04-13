@@ -17,7 +17,7 @@ div#board {
     height: 100%;
     background: 
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-        url("img/board.jpg") no-repeat center center;
+        url("../img/board.jpg") no-repeat center center;
 }
 
 div#messageArea {
@@ -63,10 +63,10 @@ form input {
 }
 
 .hit {
-    background: url("img/ship.png") no-repeat center center;
+    background: url("../img/ship.png") no-repeat center center;
 }
 
 .miss {
-    background: url("img/miss.png") no-repeat center center;
+    background: url("../img/miss.png") no-repeat center center;
     /* background-size: cover; */
 }

@@ -8,8 +8,8 @@
         position: absolute;
         width: 2011px;
         height: 84px;
-        left: 0px;
-        top: 0px;
+        left: 0;
+        top: 0;
 
         background: #007765;
     }
@@ -145,7 +145,7 @@
         left: 0;
         top: 84px;
 
-        background: url("heroBack.png");
+        background: url("../img/heroBack.png");
     }
 
     .hero__message {
@@ -230,7 +230,7 @@
         left: 0;
         top: 1100px;
 
-        background: url("secondHeroBack.png");
+        background: url("../img/secondHeroBack.png");
     }
 
     .hero__messageSecond {
@@ -296,7 +296,7 @@
         left: 425px;
         top: 150px;
 
-        background: url("logoPPC.png");
+        background: url("../img/logoPPC.png");
     }
 
     .boxPPC__textWithImage {
@@ -397,7 +397,7 @@
         bottom: 91px;
         top: 24px;
 
-        background: url("richard.png");
+        background: url("../img/richard.png");
     }
 
     .boxTeam__richardName {
@@ -467,7 +467,7 @@
         bottom: 91px;
         top: 24px;
 
-        background: url("dinesh.png");
+        background: url("../img/dinesh.png");
     }
 
     .boxTeam__dineshName {
@@ -537,7 +537,7 @@
         bottom: 91px;
         top: 24px;
 
-        background: url("bertram.png");
+        background: url("../img/bertram.png");
     }
 
     .boxTeam__bertramName {
@@ -607,7 +607,7 @@
         bottom: 91px;
         top: 24px;
 
-        background: url("jared.png");
+        background: url("../img/jared.png");
     }
 
     .boxTeam__jaredName {
@@ -677,7 +677,7 @@
         bottom: 91px;
         top: 24px;
 
-        background: url("monica.png");
+        background: url("../img/monica.png");
     }
 
     .boxTeam__monicaName {
@@ -747,7 +747,7 @@
         bottom: 91px;
         top: 24px;
 
-        background: url("nelson.png");
+        background: url("../img/nelson.png");
     }
 
     .boxTeam__nelsonName {
@@ -989,7 +989,7 @@
         left: 0;
         top: 84px;
 
-        background: url("heroBack.png");
+        background: url("../img/heroBack.png");
     }
 
     .hero__message {
@@ -1074,7 +1074,7 @@
         left: 0;
         top: 1100px;
 
-        background: url("secondHeroBack.png");
+        background: url("../img/secondHeroBack.png");
     }
 
     .hero__messageSecond {
@@ -1140,7 +1140,7 @@
         left: 55px;
         top: 150px;
 
-        background: url("logoPPC.png");
+        background: url("../img/logoPPC.png");
     }
 
     .boxPPC__textWithImage {
@@ -1241,7 +1241,7 @@
         bottom: 91px;
         top: 24px;
 
-        background: url("richard.png");
+        background: url("../img/richard.png");
     }
 
     .boxTeam__richardName {
@@ -1311,7 +1311,7 @@
         bottom: 91px;
         top: 24px;
 
-        background: url("dinesh.png");
+        background: url("../img/dinesh.png");
     }
 
     .boxTeam__dineshName {
@@ -1381,7 +1381,7 @@
         bottom: 91px;
         top: 24px;
 
-        background: url("bertram.png");
+        background: url("../img/bertram.png");
     }
 
     .boxTeam__bertramName {
@@ -1451,7 +1451,7 @@
         bottom: 91px;
         top: 24px;
 
-        background: url("jared.png");
+        background: url("../img/jared.png");
     }
 
     .boxTeam__jaredName {
@@ -1521,7 +1521,7 @@
         bottom: 91px;
         top: 24px;
 
-        background: url("monica.png");
+        background: url("../img/monica.png");
     }
 
     .boxTeam__monicaName {
@@ -1591,7 +1591,7 @@
         bottom: 91px;
         top: 24px;
 
-        background: url("nelson.png");
+        background: url("../img/nelson.png");
     }
 
     .boxTeam__nelsonName {

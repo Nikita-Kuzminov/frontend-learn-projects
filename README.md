@@ -1,3 +1,15 @@
 # frontend-learn-project
 
-Here are projects which I created to learn frontend development
+Projects which I created to learn frontend development
+
+<h3>Houston</h3>
+Article about Houston city.
+
+<h3>Travel</h3>
+Japanese city guide.
+
+<h3>Algorithms</h3>
+Algorithm tasks and algoritmhs.
+
+<h3>Battleship</h3>
+The play of Battleship.

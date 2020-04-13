@@ -11,5 +11,5 @@ Japanese city guide.
 <h3>Algorithms</h3>
 Algorithm tasks and algoritmhs.
 
-<h3>Battleship</h>
+<h3>Battleship</h3>
 The play of Battleship.
